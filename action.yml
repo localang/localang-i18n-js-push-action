@@ -1,0 +1,15 @@
+name: 'Parse i18n Files'
+description: 'Finds and parses i18n files with the specified extension and logs their content.'
+inputs:
+  api-key:
+    description: 'API Key to update translations on localang.com'
+    required: true
+  file-extension:
+    description: 'The file extension to look for ("i18n.js" or "i18n.ts")'
+    required: true
+  master-branch:
+    description: 'Name of the master branch (e.g. "master" or "main")'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
