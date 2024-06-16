@@ -2,7 +2,10 @@ name: 'Parse i18n Files'
 description: 'Finds and parses i18n files with the specified extension and logs their content.'
 inputs:
   api-key:
-    description: 'API Key to update translations on localang.com'
+    description: 'API Key to update translations on localang.xyz'
+    required: true
+  project-id:
+    description: 'ID of project on localang.xyz'
     required: true
   file-extension:
     description: 'The file extension to look for ("i18n.js" or "i18n.ts")'
