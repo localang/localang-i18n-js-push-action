@@ -1,6 +1,6 @@
 # I18n Push Action
 
-This action push i18n keysets to [localang.xyz](https://localang.xyz) service.
+This action pushes i18n keysets to [localang.xyz](https://localang.xyz) service.
 
 ## Inputs
 
@@ -23,7 +23,7 @@ This action push i18n keysets to [localang.xyz](https://localang.xyz) service.
 ## Example usage
 
 ```yaml
-uses: actions/localang-i18n-push@123qwe123eqw
+uses: actions/localang-i18n-push@TODO
 with:
   api-key: ${{ secrets.LocalangApiKey }}
   project-id: 5
