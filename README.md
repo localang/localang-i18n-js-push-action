@@ -25,8 +25,7 @@ This action pushes i18n keysets to [localang.xyz](https://localang.xyz) service.
 ```yaml
 uses: actions/localang-i18n-push@TODO
 with:
-  api-key: ${{ secrets.LocalangApiKey }}
+  api-key: ${{ secrets.LOCALANG_API_KEY }}
   project-id: 5
   file-extension: i18n.js
-  master-branch: main
 ```

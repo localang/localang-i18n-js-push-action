@@ -7,9 +7,6 @@
 # Finder's configuration files (Mac).
 .DS_Store
 
-# Node.js modules.
-node_modules/
-
 # NPM's shrinkwrap.
 # We're using `package-lock.json` instead.
 npm-shrinkwrap.json
