@@ -1,6 +1,11 @@
 # I18n Push Action
 
-This action pushes i18n keysets to [localang.xyz](https://localang.xyz) service.
+> ⚠️ **Deprecated — no longer functional.** This action synchronized translations with the
+> hosted Localang service, which has been **discontinued**. It is kept for reference only.
+> The [localang-i18n-js](https://github.com/pavelpilyak/localang-i18n-js) library and its
+> ESLint plugin remain usable standalone.
+
+This action pushes i18n keysets to the hosted Localang service.
 
 ## Inputs
 
@@ -39,7 +44,7 @@ jobs:
           fetch-depth: 0
 
       - name: Push translations
-        uses: localang/localang-i18n-js-push-action@v0.0.2
+        uses: pavelpilyak/localang-i18n-js-push-action@v0.0.2
         with:
           api-key: ${{ secrets.LOCALANG_API_KEY }}
           project-id: 1
